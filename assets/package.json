@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "elm": "^0.19.1-5",
-    "elm-format": "^0.8.5",
     "elm-webpack-loader": "6.0.1",
     "hiq": "^4.1.9",
     "phoenix": "file:../deps/phoenix",
