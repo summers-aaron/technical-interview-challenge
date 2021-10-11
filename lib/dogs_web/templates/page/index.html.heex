@@ -1,0 +1,7 @@
+<!-- Load -->
+<script type="text/javascript" src={Routes.static_path(@conn, "/js/page/index.js")}></script>
+
+<!-- Main -->
+<script type="text/javascript">
+  const app = initElm({ flags: {title: "Index", apiUrl: "<%= DogsWeb.Endpoint.url() %>"}})
+</script>
